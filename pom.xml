@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-local-storage</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.1-1-SNAPSHOT</version>
     <name>angular-local-storage</name>
     <description>WebJar for angular-local-storage</description>
     <url>http://webjars.org</url>
@@ -27,7 +27,7 @@
                     "angular-local-storage": "angular-local-storage"
                 },
                 "shim": {
-                    "angular-ui-select": ["angular"]
+                    "angular-local-storage": ["angular"]
                 }
             }
         </requirejs>
